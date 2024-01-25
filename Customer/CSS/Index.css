@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html{
+    background-color: rgb(31, 30, 30);
+}
+
+Nav{
+    background-color: #BF4342;
+    padding: 15px;
+}
