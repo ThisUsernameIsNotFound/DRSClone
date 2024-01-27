@@ -2,90 +2,60 @@
     margin: 0;
     padding: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-html{
-    background-color: #1a1616f1;
-}
-
-Nav{
-    background-color: gradient();
-    padding: 15px;
     
 }
 
-ul{
-    list-style-type: none;
+body{
+    background-color: #1a1616f1;
 }
 
-a{
-    text-decoration: none;
+.header{
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+nav{
     position: relative;
+    margin: 35px auto 0;
+    width: 500px;
+    height: 50px;
+    background-color: #1a1616f1;
+    font-size: 0;
+    box-shadow: 0px 0px 4px 3px #444242f1;
+    border-radius: 8px;
 }
 
-li{
-    display: inline;
-}
-
-.HomeLogo{
-    width: 100px;
-    height: 100px;
-}
-
-/* Get this shit working without dumbass code like this or with lists */
-.NavBarItems[1]{
-    color: white;
-}
-
-.NavBarItemHome{
-    float: right;
+nav a{
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 50px;
     position: relative;
-    padding-right: 1%;
-    font-size: 25px;
-    color: white;
-}
-
-.NavBarItemHome::before{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #2fc089;
-    transform: scaleX(0);
-    transform-origin: top left;
-    transition: transform 0.2s ease;
-}
-.NavBarItemHome:hover::before{
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
     transform: scaleX(1);
 }
 
-.NavBarItems{
-    float: right;
-    position: relative;
-    padding-right: 1%;
-    font-size: 25px;
-    color: white;
-
+a:hover{
+    color:  #27d885f1;
+    font-size: 20px;
 }
 
-.NavBarItems:hover::before{
-    transform: scaleX(1);
+a:nth-child(1){
+    width: 90px;
 }
-
-.NavBarItems::before{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 82%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #2fc089;
-    transform: scaleX(0);
-    transform-origin: top left;
-    transition: transform 0.2s ease;
+a:nth-child(2){
+    width: 110px;
+}
+a:nth-child(3){
+    width: 110px;
+}
+a:nth-child(4){
+    width: 120px;
+}
+a:nth-child(5){
+    width: 70px;
 }
