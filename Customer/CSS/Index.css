@@ -6,13 +6,12 @@
 }
 
 body{
-    background-color: #1a1616f1;
+    background-color: #0a0909f6;
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /*display: flex;*/
+    
 }
 
 nav{
@@ -20,14 +19,14 @@ nav{
     margin: 35px auto 0;
     width: 500px;
     height: 50px;
-    background-color: #1a1616f1;
+    background-color: #0c0a0af1;
     font-size: 0;
-    box-shadow: 0px 0px 4px 3px #444242f1;
+    box-shadow: 0px 0px 4px 3px #444242;
     border-radius: 8px;
 }
 
 nav a{
-    font-size: 19px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: aliceblue;
@@ -36,12 +35,10 @@ nav a{
     z-index: 1;
     text-align: center;
     display: inline-block;
-    transform: scaleX(1);
 }
 
 a:hover{
     color:  #27d885f1;
-    font-size: 20px;
 }
 
 a:nth-child(1){
